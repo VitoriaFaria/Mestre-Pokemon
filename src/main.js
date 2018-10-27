@@ -11,6 +11,9 @@ import { sync } from 'vuex-router-sync'
 // importa modulos
 import BootstrapVue from 'bootstrap-vue'
 
+// importa modulos de diretivas
+import AwesomeMask from 'awesome-mask'
+
 // importa configuracoes
 import router from './router'
 import store from './store'
@@ -46,6 +49,9 @@ const config = {
   events: 'input|blur',
   inject: true
 }
+
+// adiciona diretivas
+Vue.directive('focus', AwesomeMask)
 
 // VeeValidate
 Vue.use(VeeValidate, {

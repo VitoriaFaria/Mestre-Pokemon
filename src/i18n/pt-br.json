@@ -1,4 +1,30 @@
 {
+  "mixins": {
+    "alert": {
+      "errors": {
+        "default": {
+          "title": "Algo deu errado",
+          "message": "Não foi possível concluir a operação.<br>Tente novamente mais tarde.",
+          "button": "Ok!"
+        },
+
+        "not_found": {
+          "title": "Algo deu errado",
+          "message": "Não foi possível concluir a operação.<br>Tente novamente mais tarde.",
+          "button": "Ok!"
+        }
+      }
+    },
+
+    "success": {
+      "default": {
+        "title": "Sucesso",
+        "message": "A operação foi realizada com sucesso.",
+        "button": "Ok!"
+      }
+    }
+  },
+
   "navbar": {
     "title": "Menu",
 

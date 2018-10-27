@@ -1,3 +1,5 @@
+'use strict'
+
 import Vue from 'vue'
 
 // add translations directly to the application

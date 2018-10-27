@@ -17,6 +17,9 @@ import store from './store'
 // importa componentes
 import App from './App'
 
+// importa internacionalizacao
+import './i18n'
+
 // importa estilos
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'

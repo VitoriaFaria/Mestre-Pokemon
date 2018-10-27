@@ -1,3 +1,9 @@
 {
-  "msg": "Teste"
+  "navbar": {
+    "title": "Menu",
+
+    "menu": {
+      "home": "Inicio"
+    }
+  }
 }

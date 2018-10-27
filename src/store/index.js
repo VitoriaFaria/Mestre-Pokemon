@@ -5,6 +5,9 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import VuexI18n from 'vuex-i18n'
 
+// importa modulos de componentes
+import ComNavbar from './modules/componets/navbar'
+
 // importa modulos de rotas
 import routes from './modules/routes/'
 
@@ -18,6 +21,9 @@ const Store = new Vuex.Store({
   strict: true,
   getters,
   modules: {
+    // componentes
+    ComNavbar,
+
     // rotas
     routes
   }

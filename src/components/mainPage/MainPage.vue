@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    img(src='../../assets/logo.png')
+    img(src='../../assets/pokemon.png')
 </template>
 
 <script>

@@ -5,6 +5,9 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import VuexI18n from 'vuex-i18n'
 
+// importa modulos de api
+import ApiEndPoints from './modules/api/endPoints'
+
 // importa modulos de componentes
 import ComNavbar from './modules/componets/navbar'
 
@@ -21,6 +24,9 @@ const Store = new Vuex.Store({
   strict: true,
   getters,
   modules: {
+    // api
+    ApiEndPoints,
+
     // componentes
     ComNavbar,
 

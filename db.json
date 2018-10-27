@@ -1,3 +1,8 @@
 {
-
+  "profiles": [
+    {
+      "name": "Mestre Pokemon",
+      "id": 1
+    }
+  ]
 }
